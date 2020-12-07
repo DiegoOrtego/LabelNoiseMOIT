@@ -6,5 +6,5 @@ Interpolated supervised contrastive learning and semi-supervised learning for ro
 
 
 
-![couldn't find image](https://github.com/DiegoOrtego/LabelNoiseMOIT/Overview.pdf)
+![couldn't find image](https://github.com/DiegoOrtego/LabelNoiseMOIT/blob/main/Overview.pdf)
 
