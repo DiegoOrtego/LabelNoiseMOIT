@@ -1,8 +1,6 @@
 # Multi-Objective Interpolation Training for Robustness to Label Noise
-(Official implementation)
 
-Interpolated supervised contrastive learning and semi-supervised learning for robustness to label noise!
-We achieve state-of-the-art results in CIFAR-10, CIFAR-100, Mini-ImageNet and Mini-WebVision!
+Interpolated supervised contrastive learning and semi-supervised learning for robustness to label noise. We achieve state-of-the-art results in CIFAR-10, CIFAR-100, Mini-ImageNet and Mini-WebVision!
 
 Important note: Our method is robust in all scenarios with a single parametrization. We only modify typical training parameters (epochs, learning rate scheduling, batch size or memory size).
 
