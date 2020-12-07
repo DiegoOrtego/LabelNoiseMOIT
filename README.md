@@ -6,8 +6,6 @@ Important note: Our method is robust in all scenarios with a single parametrizat
 
 <img src="./Overview.png" width="600">
 
-![plot](https://github.com/DiegoOrtego/LabelNoiseMOIT/blob/main/Overview.png)
-
 Multi-Objective Interpolation Training (MOIT) for improved robustness to label noise. We interpolate samples and impose the same interpolation in the supervised contrastive learning loss (ICL) and the semi-supervised classification loss (SSL) that we jointly use during training. Label noise detection is performed at every epoch and its result is used after training MOIT to fine-tune the encoder and classifier to further boost performance with MOIT+.
 
 To run the code use the provided scripts in cifar10 and cifar100 folders.
