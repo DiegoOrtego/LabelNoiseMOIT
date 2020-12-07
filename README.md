@@ -1,5 +1,5 @@
-# LabelNoiseMOIT
-Official implementation for: "Multi-Objective Interpolation Training for Robustness to Label Noise"
+# Multi-Objective Interpolation Training for Robustness to Label Noise
+(Official implementation)
 
 Interpolated supervised contrastive learning and semi-supervised learning for robustness to label noise!
 We achieve state-of-the-art results in CIFAR-10, CIFAR-100, Mini-ImageNet and Mini-WebVision!
