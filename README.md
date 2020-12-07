@@ -8,23 +8,13 @@ Important note: Our method is robust in all scenarios with a single parametrizat
 
 Multi-Objective Interpolation Training (MOIT) for improved robustness to label noise. We interpolate samples and impose the same interpolation in the supervised contrastive learning loss (ICL) and the semi-supervised classification loss (SSL) that we jointly use during training. Label noise detection is performed at every epoch and its result is used after training MOIT to fine-tune the encoder and classifier to further boost performance with MOIT+.
 
-To run the code use the provided scripts in cifar10 and cifar10 folders.
+To run the code use the provided scripts in cifar10 and cifar100 folders.
 
 Datasets are downloaded automatically when setting "--download True". The dataset have to be placed in data folder (should be done automatically). We provide all code used to simulate label noise with symmetric and asymmetric distributions and provide example scripts to run our approach with both noises.
 
 Main requirements:
 
-Python 3.7.7
-
-Pytorch 1.0.1 (torchvision 0.2.2)
-
-Numpy 1.18.4
-
-scikit-learn 0.23.2
-
-cudatoolkit 9.0
-
-cudnn 7.6.5
+Python 3.7.7, Pytorch 1.0.1 (torchvision 0.2.2), Numpy 1.18.4, scikit-learn 0.23.2, cudatoolkit 9.0, cudnn 7.6.5
 
 
 
