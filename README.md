@@ -4,5 +4,5 @@ Official implementation for: "Multi-Objective Interpolation Training for Robustn
 Interpolated supervised contrastive learning and semi-supervised learning for robustness to label noise!
 
 
-https://github.com/DiegoOrtego/LabelNoiseMOIT/blob/main/Overview.pdf
+(https://github.com/DiegoOrtego/LabelNoiseMOIT/blob/main/Overview.pdf)
 
