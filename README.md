@@ -22,6 +22,6 @@ To run the code use the provided scripts in cifar10 and cifar100 folders. Datase
 * cudatoolkit 9.0
 * cudnn 7.6.5
 
-Note: Our implementation uses parts of "Supervised Contrastive Learning" https://github.com/HobbitLong/SupContrast and on Cross-Batch Memory Embedding Learning https://github.com/MalongTech/research-xbm.
+Note: Our implementation uses parts of "Supervised Contrastive Learning" https://github.com/HobbitLong/SupContrast and on "Cross-Batch Memory Embedding Learning" https://github.com/MalongTech/research-xbm.
 
 
