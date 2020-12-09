@@ -22,6 +22,20 @@ To run the code use the provided scripts in cifar10 and cifar100 folders. Datase
 * cudatoolkit 9.0
 * cudnn 7.6.5
 
+### Please consider citing the following paper if you find this work useful for your research.
+
+```
+ @article{2020_arXiv_MOIT,
+  title = {Multi-Objective Interpolation Training for Robustness to Label Noise},
+  authors = {Diego Ortego and Eric Arazo and Paul Albert and Noel E O'Connor and Kevin McGuinness},
+  year={2020},
+  journal={arXiv: 2012.04462},
+ } 
+```
+
+Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness. "Multi-Objective Interpolation Training for Robustness to Label Noise", arXiv: 2012.04462, 2020.
+
+
 Note: Our implementation uses parts of "Supervised Contrastive Learning" https://github.com/HobbitLong/SupContrast and of "Cross-Batch Memory Embedding Learning" https://github.com/MalongTech/research-xbm implementations.
 
 
