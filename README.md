@@ -1,4 +1,4 @@
-# <a href="https://arxiv.org/abs/2012.04462" target="_blank"> Multi-Objective Interpolation Training for Robustness to Label Noise - Official PyTorch code
+# <a href="https://arxiv.org/abs/2012.04462" target="_blank"> "Multi-Objective Interpolation Training for Robustness to Label Noise" - Official PyTorch code
 
 Joint interpolated supervised contrastive learning and interpolated semi-supervised learning for robustness to label noise. We achieve state-of-the-art results in CIFAR-10, CIFAR-100, Mini-ImageNet and Mini-WebVision!
 
