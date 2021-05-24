@@ -1,4 +1,4 @@
-# <a href="https://arxiv.org/abs/2012.04462" target="_blank"> Multi-Objective Interpolation Training for Robustness to Label Noise</a> - Official PyTorch code
+# <a href="https://arxiv.org/abs/2012.04462" target="_blank"> Multi-Objective Interpolation Training for Robustness to Label Noise</a> - Official PyTorch code (CVPR21)
 
 Joint interpolated supervised contrastive learning and interpolated semi-supervised learning for robustness to label noise. We achieve state-of-the-art results in CIFAR-10, CIFAR-100, Mini-ImageNet and Mini-WebVision!
 
@@ -25,11 +25,11 @@ To run the code use the provided scripts in cifar10 and cifar100 folders. Datase
 ### Please consider citing the following paper if you find this work useful for your research.
 
 ```
- @article{2020_arXiv_MOIT,
+ @InProceedings{2021_CVPR_MOIT,
   title = {Multi-Objective Interpolation Training for Robustness to Label Noise},
   authors = {Diego Ortego and Eric Arazo and Paul Albert and Noel E O'Connor and Kevin McGuinness},
-  year={2020},
-  journal={arXiv: 2012.04462},
+  year={2021},
+  booktitle ={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
  } 
 ```
 
