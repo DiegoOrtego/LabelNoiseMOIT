@@ -29,7 +29,7 @@ To run the code use the provided scripts in cifar10 and cifar100 folders. Datase
   title = {Multi-Objective Interpolation Training for Robustness to Label Noise},
   authors = {Diego Ortego and Eric Arazo and Paul Albert and Noel E O'Connor and Kevin McGuinness},
   year={2021},
-  booktitle ={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle ={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
  } 
 ```
 
