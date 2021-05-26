@@ -33,7 +33,7 @@ To run the code use the provided scripts in cifar10 and cifar100 folders. Datase
  } 
 ```
 
-Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness. "Multi-Objective Interpolation Training for Robustness to Label Noise", arXiv: 2012.04462, 2020.
+Diego Ortego, Eric Arazo, Paul Albert, Noel E. O'Connor, Kevin McGuinness. "Multi-Objective Interpolation Training for Robustness to Label Noise", IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
 
 
 Note: Our implementation uses parts of "Supervised Contrastive Learning" https://github.com/HobbitLong/SupContrast and of "Cross-Batch Memory Embedding Learning" https://github.com/MalongTech/research-xbm implementations.
