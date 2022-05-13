@@ -544,7 +544,7 @@ def LabelNoiseDetection(args, net, device, trainloader, testloader, sigma, epoch
             features = trainFeatures.t()[index]
 
             dist = torch.mm(features, trainFeatures)
-            dist[torch.arange(dist.size()[0]), torch.arange(dist.size()[0])] = -1 ##Self-contrast set to -1
+            dist[torch.arange(dist.size()[0]), index] = -1 ##Self-contrast set to -1
 
             yd, yi = dist.topk(args.k_val, dim=1, largest=True, sorted=True) ## Top-K similar scores and corresponding indexes
             candidates = trainNoisyLabels.view(1, -1).expand(batchSize, -1) ##Replicate the labels per row to select
@@ -588,7 +588,7 @@ def LabelNoiseDetection(args, net, device, trainloader, testloader, sigma, epoch
             features = trainFeatures.t()[index]
 
             dist = torch.mm(features, trainFeatures)
-            dist[torch.arange(dist.size()[0]), torch.arange(dist.size()[0])] = -1  ##Self-contrast set to -1
+            dist[torch.arange(dist.size()[0]), index] = -1  ##Self-contrast set to -1
 
             yd, yi = dist.topk(args.k_val, dim=1, largest=True, sorted=True)  ## Top-K similar scores and corresponding indexes
             candidates = tran_new_labels2.view(1, -1).expand(batchSize, -1)  ##Replicate the labels per row to select
